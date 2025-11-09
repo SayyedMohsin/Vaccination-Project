@@ -1,0 +1,29 @@
+
+---
+
+### 🧾 2. `.gitignore`
+
+```gitignore
+# Jupyter and Python cache
+__pycache__/
+.ipynb_checkpoints/
+
+# Power BI
+*.pbix
+*.pbit
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+env/
+venv/
+
+# Data files (large)
+*.db
+*.xlsx
+*.csv
+
+# Logs
+*.log
